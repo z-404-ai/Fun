@@ -1,1 +1,1 @@
-const sumOfN = (n, limit) => n === limit - 2 ? n : sumOfN(n + 2, limit);
+const sumOfN = (n, limit) => n >= limit ? n : sumOfN(n + 1, limit);
